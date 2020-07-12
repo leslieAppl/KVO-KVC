@@ -17,6 +17,9 @@
                         <subviews>
                             <stepper opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" maximumValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="pSH-aI-j69">
                                 <rect key="frame" x="140.5" y="317.5" width="94" height="32"/>
+                                <connections>
+                                    <action selector="updateValue:" destination="BYZ-38-t0r" eventType="valueChanged" id="Ltr-1Y-QwK"/>
+                                </connections>
                             </stepper>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NfJ-XF-IH1">
                                 <rect key="frame" x="140.5" y="273.5" width="94" height="24"/>
@@ -35,6 +38,9 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="counterLbl" destination="NfJ-XF-IH1" id="WWa-Kf-zfk"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

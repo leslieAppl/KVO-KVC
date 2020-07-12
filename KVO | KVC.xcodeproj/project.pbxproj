@@ -13,6 +13,7 @@
 		CEC1532C24B9DFA8000F5025 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEC1532A24B9DFA8000F5025 /* Main.storyboard */; };
 		CEC1532E24B9DFA9000F5025 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEC1532D24B9DFA9000F5025 /* Assets.xcassets */; };
 		CEC1533124B9DFA9000F5025 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEC1532F24B9DFA9000F5025 /* LaunchScreen.storyboard */; };
+		CEC1533924BABC06000F5025 /* MyControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC1533824BABC06000F5025 /* MyControl.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		CEC1532D24B9DFA9000F5025 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CEC1533024B9DFA9000F5025 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CEC1533224B9DFA9000F5025 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEC1533824BABC06000F5025 /* MyControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyControl.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +58,40 @@
 		CEC1532324B9DFA8000F5025 /* KVO | KVC */ = {
 			isa = PBXGroup;
 			children = (
+				CEC1533C24BABC7C000F5025 /* Model */,
+				CEC1533B24BABC77000F5025 /* View */,
+				CEC1533A24BABC62000F5025 /* Controller */,
 				CEC1532424B9DFA8000F5025 /* AppDelegate.swift */,
 				CEC1532624B9DFA8000F5025 /* SceneDelegate.swift */,
-				CEC1532824B9DFA8000F5025 /* ViewController.swift */,
 				CEC1532A24B9DFA8000F5025 /* Main.storyboard */,
 				CEC1532D24B9DFA9000F5025 /* Assets.xcassets */,
 				CEC1532F24B9DFA9000F5025 /* LaunchScreen.storyboard */,
 				CEC1533224B9DFA9000F5025 /* Info.plist */,
 			);
 			path = "KVO | KVC";
+			sourceTree = "<group>";
+		};
+		CEC1533A24BABC62000F5025 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CEC1532824B9DFA8000F5025 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		CEC1533B24BABC77000F5025 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CEC1533C24BABC7C000F5025 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CEC1533824BABC06000F5025 /* MyControl.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +166,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CEC1532924B9DFA8000F5025 /* ViewController.swift in Sources */,
+				CEC1533924BABC06000F5025 /* MyControl.swift in Sources */,
 				CEC1532524B9DFA8000F5025 /* AppDelegate.swift in Sources */,
 				CEC1532724B9DFA8000F5025 /* SceneDelegate.swift in Sources */,
 			);

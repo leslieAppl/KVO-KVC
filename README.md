@@ -1,10 +1,10 @@
 # KVO and KVC System
 
-## Conform to the NSKeyValueCoding protocol
+## -1 Conform to the NSKeyValueCoding protocol
 
-## Modifying property values using KVC - setValue() method
+## -2 Modifying property values using KVC - setValue() method
 
-## Adding observers using KVO - addObserver() method
+## -3 Adding/Registering observers using KVO - addObserver() method
 
-## Observing values changed using KVO - observeValue() method
+## -4 Observing values changed using KVO - observeValue() method
 
